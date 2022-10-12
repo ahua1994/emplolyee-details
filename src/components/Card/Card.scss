@@ -1,0 +1,55 @@
+@import "../Variables/Variables.scss";
+
+.Card {
+    width: 500px;
+    height: 450px;
+    background-color: $cardColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h4 {
+        margin: 0;
+        opacity: 0.5;
+        &:hover { 
+            color: dodgerblue;
+        }
+    }
+
+    img {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    }
+    .socials {
+        width: 120px;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: space-around;
+        opacity: 0.5;
+        .fb:hover {
+            color: dodgerblue;
+        }
+        .tw:hover {
+            color: dodgerblue;
+        }
+        .ig:hover {
+            color: dodgerblue;
+        }
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    button{
+        font-size: 1.5rem;
+    }
+}
+
+.Index{
+    text-align: center;
+    color: $headColor;
+    font-weight: lighter; 
+}
