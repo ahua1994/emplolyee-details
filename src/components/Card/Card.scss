@@ -12,7 +12,7 @@
         margin: 0;
         opacity: 0.5;
         &:hover { 
-            color: dodgerblue;
+            color: $linkColor;
         }
     }
 
@@ -28,13 +28,13 @@
         justify-content: space-around;
         opacity: 0.5;
         .fb:hover {
-            color: dodgerblue;
+            color: $linkColor;
         }
         .tw:hover {
-            color: dodgerblue;
+            color: $linkColor;
         }
         .ig:hover {
-            color: dodgerblue;
+            color: $linkColor;
         }
     }
 }
